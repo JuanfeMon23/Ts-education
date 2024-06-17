@@ -1,6 +1,6 @@
 import heroes,{owners} from '../data/heroes'
 
-function getHeroById(id: number){
+export function getHeroById(id: number){
     return heroes.find( hero => hero.id === id);
 }
 
@@ -12,8 +12,8 @@ function getHeroById(id: number){
 // filter = to search many dates
 
 
-function getHeroesByOwner(owner : string){
+export function getHeroesByOwner(owner : string){
     return heroes.find(hero => hero.owner === owner)
 }
 
-console.log(getHeroesByOwner('DC'))
+// console.log(getHeroesByOwner('DC'))

@@ -2,8 +2,10 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
-import './bases/06-des-arr.ts'
-import './bases/07-imp-exp.ts'
+// import './bases/06-des-arr.ts'
+// import './bases/07-imp-exp.ts'
+// import './bases/08-promises.ts'
+import './bases/09-fetch.ts'
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `

@@ -1,4 +1,14 @@
-const heroes = [
+export interface Hero {
+    id: number;
+    name : string;
+    owner : Owner;
+}
+
+export type Owner = 'DC' | 'Marvel';
+
+
+
+const heroes : Hero[] = [
     {
         id: 1,
         name: 'Batman',
